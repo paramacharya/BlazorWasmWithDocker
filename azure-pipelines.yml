@@ -1,4 +1,8 @@
 # Docker
+- task: Docker@2
+  inputs:
+    command: 'build'
+    Dockerfile: '**/dockerfile'
 # Build a Docker image 
 # https://docs.microsoft.com/azure/devops/pipelines/languages/docker
 
